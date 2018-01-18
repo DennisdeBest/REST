@@ -1,0 +1,15 @@
+easy_admin:
+    site_name: 'KEK Megacorp.'
+    entities:
+        Currency:
+            class: App\Entity\Currency
+            form:
+                fields:
+                  - 'name'
+                  - 'amount'
+        User:
+            class: App\Entity\User
+            form:
+                fields:
+                  - 'username'
+                  - 'roles'
