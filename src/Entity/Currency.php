@@ -13,7 +13,7 @@ use Gedmo\Timestampable\Traits\TimestampableEntity;
 use App\Traits\BlameableTrait;
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="App\Repository\CurrencyRepository")
  * @ORM\Table(name="currency")
  */
 class Currency
